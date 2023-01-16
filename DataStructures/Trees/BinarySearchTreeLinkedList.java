@@ -12,7 +12,7 @@ import java.util.Queue;
  *      - Postorder traversal
  *      - Levelorder traversal
  */
-public class BinarySearchTree {
+public class BinarySearchTreeLinkedList {
     class Node{
         int value;
         Node leftChild;
@@ -49,7 +49,7 @@ public class BinarySearchTree {
         }
     }
 
-    BinarySearchTree.Node root=null;
+    BinarySearchTreeLinkedList.Node root=null;
 
     public void insert(Node currentNode, Node node){
         if(this.root==null){
@@ -168,7 +168,7 @@ public class BinarySearchTree {
         return node;
     }
     public static void main(String[] args) {
-        BinarySearchTree bt = new BinarySearchTree();
+        BinarySearchTreeLinkedList bt = new BinarySearchTreeLinkedList();
         bt.insert(bt.root, bt.new Node(70));
         bt.insert(bt.root, bt.new Node(50));
         bt.insert(bt.root, bt.new Node(90));

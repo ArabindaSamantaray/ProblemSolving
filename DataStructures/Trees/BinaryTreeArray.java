@@ -8,6 +8,8 @@
  *      - Inorder traversal
  *      - Postorder traversal
  *      - Levelorder traversal
+ *
+ *      Imp: Never use this representation. Can be a sparse array
  */
 public class BinaryTreeArray {
     int[] arrayOfValues = new int[10];
